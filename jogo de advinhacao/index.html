@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Glass Card</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    h2 {
+      padding: 0px;
+      margin: 0px;
+      inline-size: 4px;
+    }
+  </style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="container">
+  <div class="placar">
+    <p class="placar_1">fracassos: <strong id="derrotas"> </strong></p>
+    <p class="placar_2">sucesso: <strong id="vitoria"> </strong></p>
+  </div>
+   
+  <div class="button-wrapper">
+    <input type="number" id="quantidade" class="form-check-inlines"  placeholder="Quantidade sorteio">
+    <br>
+    <input type="number" id="userGuess" class="form-check-inlines"  placeholder="Sua Adivinhação">
+    <br> 
+    <button  onclick="chamadaForm()" class="btn fill">ADINHAR</button>
+  <button class="btn outline">RESET</button>
+  <br>
+  
+  <div class="wrapper">
+
+    <h3 id="mostrar_valor"></h3>
+    
+
+   </div>
+  </div>
+    </div>
+</div>
+<!-- Codigo javascipt -->
+<script src="script.js"></script>
+</body>
+</html>
